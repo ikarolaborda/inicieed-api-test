@@ -19,6 +19,8 @@ Aviso: para usar este aplicativo de forma mais simples e objetiva, tenha instala
     make dci
 ```
 
+Deve-se atentar para o fato de que o arquivo ``.env`` necessita um valor para a chave ``GOREST_ACCESS_TOKEN``, que pode ser obtido no site [GoRest](https://gorest.co.in/).
+
 Isso criará os containers necessários para rodar o app.
 
 ### Teste e Documentação
