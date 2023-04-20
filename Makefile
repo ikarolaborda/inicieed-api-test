@@ -32,4 +32,4 @@ php:
 	docker exec -it php bash
 
 test:
-	docker exec -it php php artisan test --filter=ApiControllerTest
+	docker exec -it php php artisan test

@@ -35,6 +35,6 @@ Para correr os testes, use o comando abaixo:
 
 ### Disclaimer
 - Esta aplicação foi requerida com um nível de complexidade baixo, portanto, algumas abstrações que deveriam estar presentes em um cenário real, foram deixadas de lado. 
-Por exemplo, a separação de responsabilidades entre os comandos, temos nesta aplicação, somente um controller ``ApiController`` que contempla todos os endpoints, mas no cenário real, podemos enxergar 3
+Por exemplo, a separação de responsabilidades entre as entidades/concerns, temos nesta aplicação, somente um controller ``ApiController`` que contempla todos os endpoints, mas no cenário real, podemos enxergar 3
 entidades distintas ``User``, ``Post`` e ``Comment``. Sendo assim, deveriam existir 3 servicos distintos, cada um com sua responsabilidade, e cada um com seu respectivo controller.
 - O Arquivo de testes unitários tem como ultimo teste um teste end to end (e2e), que não deveria estar ali, mas como não foi exigido complexidade similar à real, optei por deixá-lo ali.
